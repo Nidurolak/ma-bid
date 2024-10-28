@@ -4,23 +4,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-mabinogi testAligin">
+      <h1 className="text-2xl font-bold">Mabinogi Classic Font 적용!</h1>
+      <p>이 문장은 글로벌 글꼴로 지정된 MabinogiClassic 글꼴을 사용합니다.</p>
     </div>
   );
-}
+};
 
 export default App;
