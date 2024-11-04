@@ -8,7 +8,7 @@ import { getTest } from '../utils/api/api';
 function Horomodal() {
 
 
-    return (<div>asdasdasdsda</div>)
+    return (<div className="HoroModal_Back">asdasdasdsda</div>)
 }
 
 export default Horomodal

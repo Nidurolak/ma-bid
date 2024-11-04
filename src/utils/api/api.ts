@@ -29,6 +29,6 @@ export const getTest =async (data: any) => {
   const headers = {
     "x-nxopen-api-key": process.env.REACT_APP_OPEN_AI_KEY
   };
-  const res = await apiClient.get(`/list?auction_item_category=음식&item_name=나무열매`,{headers}) 
+  const res = await apiClient.get(`/list?item_name=나무 장작`,{headers}) 
   return res;
 }
